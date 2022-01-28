@@ -1,0 +1,37 @@
+special_project = {
+	key = "RESEARCH_PHANON_DIMENSIONAL_MIRROR"
+	cost = 10000000
+	tech_department = physics_technology
+	picture = GFX_evt_dimensional_mirror
+	event_chain = phanon_dimensional_mirror_chain
+	event_scope = country_event
+	location = no
+	abort_trigger = {
+	}
+	on_success = {
+		owner = {
+			country_event = {
+				id = aot_phanon_events.2
+			}
+		}
+	}
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "PHANON_PYLON_LIST_ENTRY"
+	cost = 0
+	days_to_research = -1
+	picture = GFX_evt_landing_ship
+	event_chain = phanon_pylon_list_entry
+	location = yes
+	sound = no
+	event_scope = country_event
+	on_success = {
+	}
+	on_fail = {
+	}
+	on_cancel = {
+	}
+}
